@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
     tunjanganKeluarga = pegawai.status === "Menikah" ? 0.2 * gajiPokok : 0;
 
     const totalGajiPegawai =
-      gajiPokok + tunjanganJabatan - bpjs + tunjanganKeluarga;
+      gajiPokok + tunjanganJabatan + bpjs + tunjanganKeluarga;
     totalGaji += totalGajiPegawai;
 
     const row = `
